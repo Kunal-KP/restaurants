@@ -12,3 +12,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.bodyContainer {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Design inspiration:  https://dribbble.com/shots/1978243-Latest-News */
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  /* width: 280px; */
+  display: block;
+  /* margin: 60px auto; */
+  box-shadow: 3px 3px 12px 0px;
+  transition: 0.25s;
+  margin: 20px 10px;
+  padding: 10px;
+  height: 400px;
+}
+.card:hover {
+  /* box-shadow: 10px 5px 40px 20px #271580; */
+  /* cursor: pointer; */
+}
+.card:hover .button-primary {
+  transform: translate(10px, 0);
+}
+
+.card-header {
+  height: 150px;
+  width: 100%;
+  padding: 15px;
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+
+.card-header--title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.date {
+  font-size: 11px;
+  font-weight: 600;
+  color: grey;
+}
+
+.body-content {
+  /* padding-bottom: 40px; */
+  font-size: 13px;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content-details {
+  display: flex;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.button-primary {
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  background-color: transparent;
+  color: #341cac;
+  font-size: 15px;
+  transition: 0.25s;
+}
+.button-primary i {
+  padding-right: 4px;
+}
+
+.designer-link {
+  color: #fff;
+  text-align: center;
+  fon-size: 12px;
+  text-decoration: none;
+  display: block;
+}
